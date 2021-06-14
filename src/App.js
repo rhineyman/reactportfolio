@@ -12,6 +12,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import Contact from "./components/Contact"
 
 function App() {
 	const [currentTab, setCurrentTab] = useState("about");
@@ -20,7 +21,9 @@ function App() {
 	const renderTab = () => {
 		switch (currentTab) {
 			case "about":
-				return <About />;					
+				return <About />;
+      case "contact":
+        return <Contact />;  					
 			default:
 				return null;
 		}
