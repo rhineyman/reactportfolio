@@ -1,18 +1,10 @@
-// import './App.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import Portfolio from './components/Portfolio';
-
-// function App() {
-//   return (
-//     <Portfolio />
-//   );
-// }
 import "./App.css";
 import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact"
+import Projects from "./components/Projects";
 
 function App() {
 	const [currentTab, setCurrentTab] = useState("about");
@@ -23,7 +15,9 @@ function App() {
 			case "about":
 				return <About />;
       case "contact":
-        return <Contact />;  					
+        return <Contact />;
+		case "projects":
+			return <Projects />;  					
 			default:
 				return null;
 		}

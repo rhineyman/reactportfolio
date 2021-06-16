@@ -10,13 +10,13 @@ th {
   padding: 0px 20px 0px 20px;
 }
 :root {
-	--primary: #499167;
+	--primary: #318655;
 	--secondary: #2E282A;
 	--tertiary: #f0f2a6;
 	--quaternary: #39a9db;
 	--quinary: #bfd7ea;
 	--light: #bfd7ea;
-	--dark: #353831;
+	--dark: #2e5f29f6;
 	--darker: #39a9db;
 	--error: rgb(228, 46, 1);
 	--spacing-one: calc(1rem * 0.5);
@@ -55,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Courier', sans-serif;
 	font-weight: 500;
 	margin: 5px 0;
 	line-height: 1.25;
@@ -67,22 +67,6 @@ h1 {
 
 h2 {
 	font-size: 2rem;
-}
-
-h3 {
-	font-size: 1.75rem;
-}
-
-h4 {
-	font-size: 1.5rem;
-}
-
-h5 {
-	font-size: 1.25rem;
-}
-
-h6 {
-	font-size: 1rem;
 }
 
 p {
@@ -242,6 +226,7 @@ textarea {
 }
 
 .footer {
+	padding-top: 30px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -252,7 +237,6 @@ textarea {
 	height: auto;
 	max-width: 480px;
 	max-height: 480px;
-	/* padding: 50px; */
 	margin-bottom: 50px;
 }
 
@@ -281,7 +265,7 @@ textarea {
 }
 
 .page-header {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Courier', sans-serif;
 	font-size: 2.5em;
 	font-weight: 500;
 	margin: 5px 0;
