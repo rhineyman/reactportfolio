@@ -14,10 +14,10 @@ function App() {
 		switch (currentTab) {
 			case "about":
 				return <About />;
-      case "contact":
-        return <Contact />;
-		case "projects":
-			return <Projects />;  					
+			case "contact":
+				return <Contact />;
+			case "projects":
+				return <Projects />;
 			default:
 				return null;
 		}
