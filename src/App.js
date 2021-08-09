@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
-import Contact from "./components/Contact"
+import Skill from "./components/Skill";
 import Projects from "./components/Projects";
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
 		switch (currentTab) {
 			case "about":
 				return <About />;
-			case "contact":
-				return <Contact />;
+			case "skill":
+				return <Skill />;
 			case "projects":
 				return <Projects />;
 			default:
