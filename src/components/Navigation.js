@@ -16,7 +16,7 @@ function Navigation(props) {
 					<span onClick={() => setCurrentTab("projects")}>Projects</span>
 				</li>
                 <li className="resume mx-2">
-                    <a href="https://docs.google.com/document/d/e/2PACX-1vQlcmfkDf0_Qxq3s_e2UhDixUVjh6mBqfYfOYF4DBnUrT85dRuPqMtT2dMIwxSN7tV_NxflESBKJmp_/pub" 
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vSgVh4tuIu_ErO9uOQY88AE1vHwwn6uyGwKg8tgfvKdftjR4325YAaA1LFGPdbHaKjwbA3sMBhC09_c/pub" 
                     target="_blank"
                     rel="noopener noreferrer"
                     >Resume</a>
