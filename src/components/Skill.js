@@ -17,6 +17,7 @@ function Skill() {
                 <li>MySQL</li>
                 <li>Git</li>
                 <li>Database Integrations</li>
+                <li>React</li>
         </div>
         </section>
 
