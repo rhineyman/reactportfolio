@@ -15,6 +15,12 @@ function Projects() {
             <p>linked deployment:<a href="https://rhineyman.github.io/Calender/" target="_blank">Day Planner</a> </p>
             <p>github link: <a href="https://github.com/rhineyman/Calender" target="_blank">Github</a></p>
         </div>
+        <div className="px-2">
+            <h2>Weather Tracker</h2>
+            <p>A simple site to check the weather of a location.</p>
+            <p>linked deployment:<a href="https://rhineyman.github.io/WeatherTracker/" target="_blank">Weather Tracker</a> </p>
+            <p>github link: <a href="https://github.com/rhineyman/WeatherTracker" target="_blank">Github</a></p>
+        </div>
         </section>
     )
 }
